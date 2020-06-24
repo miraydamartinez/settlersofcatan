@@ -1,0 +1,65 @@
+--------------------------
+- Overview 91/100
+--------------------------
+
+A
+
+Overall, you implemented a non-trivial game. The final result has most 
+of the core visual components, UI, and game play logic. Good job!
+Obviously adding real multiplayer would be a good addition, but having 
+the full game logic in a single application is still a great 
+achievement for 4 weeks (in which you were not working full-time on it)
+The final tiles and cards look great, as does the placement of the middle numbers.
+Consider compiling your program for webgl and hosting it form github.
+
+Your project management was great throughout. It is unfortunate that not all 
+team members could contribute equally throughout the semester -- the end result 
+might have been really good otherwise. It is still quite good though. A strong 
+start. I also respect that you had to figure out for yourselves how to program 
+the game in Unity. If you chose a standard game type, there are numerous 
+tutorials to use a starting point.
+
+Some suggestions for improvements:
+- Need some big text to show whose turn it is
+- Error messages could pop up when the player tries to do something illegal. 
+The log is great but users will understand context-specific messages better.
+- I had trouble keeping track of which color belonged to which player
+- The robber got stuck on a road and I couldn't move it
+- Would be nice to let the user change their minds on a placement before 
+they click EndTurn
+
+Based on evaluations and git history, all team members contributed 
+a non-trivial amount. However, Matt and Mirayda contributed much more
+and Mirayda gets the bragging rights for author of the year. See 
+stats/authors.html for details.
+
+--------------------------
+- Breakdown
+--------------------------
+
+(10 points) Proposal: A, the picture of Mirayda and Bellara is so nice :)
+(10 points) Sprints: A
+(10 points) Studio (In class meetings): A
+(4 points) Record of weekly progress: A 
+(4 points) Final report: A 
+(4 points) Post-mortem: A 
+(4 points) Credits: A 
+(0/4 points) Updated design doc: Not Found. 
+
+-4
+I could not find documentation on your final architecture, such as TurnLog. It 
+looks like you didn't use classes for Road, Settlement, etc -- which is fine -- 
+but I want to see a high-level description of how your final application 
+is implemented. 
+
+(32/35 points) Source code: A
+
+-1 Would be helpful to know what scene to open in Unity
+-1 Similarly instructions on how to build and run the tests
+-1 It is customary to include the url and command for downloading the source
+
+(13/15 points) Test code: A
+
+-1 Would like to see documentation about your test scenes
+-1 You did not check in you sln/csproj files to git!
+
